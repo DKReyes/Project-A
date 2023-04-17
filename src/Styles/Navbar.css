@@ -1,0 +1,33 @@
+/* Navbar Settings - Desktop */
+.nav {
+    display: flex;
+    width: 100%;
+    background-color: #1A202C;
+    color: white;
+}
+
+.nav-container {
+    padding-left: 15px;
+    flex: 1;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-logo {
+
+}
+
+.nav-list {
+
+}
+
+.nav-ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+}
+    .nav-ul li {
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
