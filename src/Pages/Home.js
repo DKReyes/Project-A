@@ -1,4 +1,5 @@
 import '../Styles/Splash.css'
+import '../Styles/General.css'
 
 const Home = () => {
     return (
