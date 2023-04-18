@@ -1,9 +1,16 @@
+import '../Styles/Splash.css'
+
 const Home = () => {
     return (
-      <>     
-        <h1>Hello, I'm Dylan Reyes</h1>
-        <h2>A fullstack web developer / software engineer</h2>
-        <button>Test</button>
+      <>
+        <div class='splash-main'>
+          <div class='splash-title'>
+            <h2>Hello, I'm</h2>
+            <h1>Dylan Reyes</h1>
+            <h3>A fullstack web developer / software engineer</h3>
+            <button>Test</button>
+          </div>
+        </div>  
 
         <div>
           <h2>About Me</h2>
