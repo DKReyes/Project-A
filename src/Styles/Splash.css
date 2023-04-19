@@ -27,4 +27,14 @@
     }
     .splash-title h3 {
         font-size: 30px;
+        margin-bottom: 50px;
     }
+
+.splash-title a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 15px 32px;
+    font-size: 20px;
+}
