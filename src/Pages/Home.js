@@ -6,10 +6,10 @@ const Home = () => {
       <>
         <div class='splash-main'>
           <div class='splash-title'>
-            <h2>Hello, I'm</h2>
+            <h2>Hi, my name is</h2>
             <h1>Dylan Reyes</h1>
             <h3>A fullstack web developer / software engineer</h3>
-            <button>Test</button>
+            <a href='/'>Contact</a>
           </div>
         </div>  
 
