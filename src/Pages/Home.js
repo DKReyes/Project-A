@@ -9,7 +9,7 @@ const Home = () => {
             <h2>Hi, my name is</h2>
             <h1>Dylan Reyes</h1>
             <h3>A fullstack web developer / software engineer</h3>
-            <a href='/'>Contact</a>
+            <a href='/'>Contact</a> <a href='/'>Resume</a>
           </div>
         </div>  
 
@@ -27,7 +27,7 @@ const Home = () => {
             <p>I am familiar with React, Javascript, Python, C#, PHP, and Node.</p>
 
             <p>
-              I graduated from <a href=''>Red River College</a> for computer science through their <a href='/'>Bussiness Information Technology</a> program. 
+              I graduated from <a href='/'>Red River College</a> for computer science through their <a href='/'>Bussiness Information Technology</a> program. 
               With additional background in web design in high school at Kelvin High School.
             </p>
 
@@ -44,7 +44,19 @@ const Home = () => {
         </div>
 
         <div>
-          
+          <h2>Technology</h2>
+        </div>
+
+        <div>
+          <h2>Projects</h2>
+        </div>
+
+        <div>
+          <h2>Work Experience</h2>
+        </div>
+        
+        <div>
+          <h2>Contact</h2>
         </div>
       </>
     )
