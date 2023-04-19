@@ -14,19 +14,37 @@ const Home = () => {
         </div>  
 
         <div>
-          <h2>About Me</h2>
+          <div>
+            TEMPLATE IMAGE
+          </div>
+          <div>
+            <h2>About Me</h2>
 
-          <h4>Hello, I am Dylan Reyes.</h4>
+            <h4>Hello, I am Dylan Reyes.</h4>
 
-          <p>I have background in full stack, cloud computiing, and software development.</p>
+            <p>I have background in full stack, cloud computiing, and software development.</p>
+            
+            <p>I am familiar with React, Javascript, Python, C#, PHP, and Node.</p>
+
+            <p>
+              I graduated from <a href=''>Red River College</a> for computer science through their <a href='/'>Bussiness Information Technology</a> program. 
+              With additional background in web design in high school at Kelvin High School.
+            </p>
+
+            <p>
+              When I was younger I always enjoyed web and console games. And I wanted to share that passion to others. 
+              I decided to learn coding to create software and websites that everyone could enjoy and feel that same passion I felt.
+            </p>
+            
+            <p>
+              Outside of coding I like to have many different hobbies. One of my personal favourite hobbies is kickboxing.
+              I like to spend after hours after class or work at <a href='/'>Dave's Gym</a>.
+            </p>
+          </div>
+        </div>
+
+        <div>
           
-          <p>I am familiar with React, Javascript, Python, C#, PHP, and Node.</p>
-
-          <p>I graduated from Red River College for computer science through their Bussiness Information Technology program. I had experience in coding through high school working with Java.</p>
-          
-          <p>Outside of coding I like to have many different hobbies. I love ice skating, kickboxing, and volleyball.
-            I like to go kickboxing five times a week and volleyball every sunday.
-          </p>
         </div>
       </>
     )
