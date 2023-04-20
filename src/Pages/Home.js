@@ -1,5 +1,9 @@
 import '../Styles/Splash.css'
 import '../Styles/General.css'
+import '../Styles/About.css'
+
+import { IconContext } from 'react-icons/lib';
+import { AiOutlineMail, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 const Home = () => {
     return (
@@ -40,11 +44,20 @@ const Home = () => {
               Outside of coding I like to have many different hobbies. One of my personal favourite hobbies is kickboxing.
               I like to spend after hours after class or work at <a href='/'>Dave's Gym</a>.
             </p>
+
+            <IconContext.Provider value={{ size: "1.5em"}}>
+              <ul class='about-icons-ul'>
+                <li><a href='/'><AiOutlineMail /></a></li>
+                <li><a href='/'><AiFillLinkedin /></a></li>
+                <li><a href='/'><AiFillGithub /></a></li>
+              </ul>
+            </IconContext.Provider>
           </div>
         </div>
 
         <div>
           <h2>Technology</h2>
+
         </div>
 
         <div>
