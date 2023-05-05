@@ -15,3 +15,18 @@
         text-decoration: none;
         color: black;
     }
+
+.about-content {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 80%;
+    display: flex;
+}
+    .about-image {
+        flex: 1;
+    }
+    .about-text{
+        flex: 2;
+    }
