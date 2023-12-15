@@ -1,14 +1,16 @@
 /* Navbar Settings - Desktop */
+
+
 .nav-box {
     width: 100%;
-    background-color: #1A202C;
+    background-color: #383e49;
 }
 
 .nav-content {
     display: flex;
     width: 80%;
     max-width: 960px;
-    background-color: #1A202C;
+    background-color: #383e49;
     color: white;
 
     margin-left: auto;
@@ -20,6 +22,7 @@
 .nav-container {
     flex: 1;
     display: flex;
+    z-index: 999;
 }
 
 .nav-logo {

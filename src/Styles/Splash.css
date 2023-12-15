@@ -1,7 +1,7 @@
 /* Splash Page - Desktop */
 .splash-main {
     height: 100vh;
-    background-color: #364053;
+    background-color: #464e5b;
 }
 
 .splash-title {
@@ -37,4 +37,21 @@
     border-radius: 30px;
     padding: 15px 32px;
     font-size: 20px;
+}
+
+.bg-img {
+    position: relative;
+    object-fit: cover;
+    position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-overlay {
+    background-color: #000000b9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
