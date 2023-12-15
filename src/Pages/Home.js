@@ -4,16 +4,26 @@ import '../Styles/About.css'
 
 import { IconContext } from 'react-icons/lib';
 import { AiOutlineMail, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import Bgimg from '../Images/background.jpg'
 
 const Home = () => {
     return (
       <>
+        <>{/* Testing Background */}</>
+        <section>
+          <div>
+            <img src={Bgimg} alt="Background" class="bg-img"/>
+            <div class="bg-overlay"></div>
+          </div>
+        </section>
+
+
         <div class='splash-main'>
           <div class='splash-title'>
-            <h2>Hi, my name is</h2>
+            <h2>Hey, my name is</h2>
             <h1>Dylan Reyes</h1>
-            <h3>A fullstack web developer / software engineer</h3>
-            <a href='/'>Contact</a> <a href='/'>Resume</a>
+            <h3>A fullstack web developer / software engineer / cloud developer</h3>
+            <a href='/'>Contact</a>
           </div>
         </div>
 
