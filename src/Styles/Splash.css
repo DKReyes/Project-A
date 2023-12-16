@@ -49,9 +49,11 @@
 .bg-img {
     position: relative;
     object-fit: cover;
-    position: center center;
     height: 100%;
     width: 100%;
+    display: block;
+    font-size: 0;
+    line-height: 0;
 }
 
 .bg-overlay {
@@ -61,4 +63,8 @@
     right: 0;
     width: 100%;
     height: 100%;
+}
+
+.section {
+    height: 100vh;
 }

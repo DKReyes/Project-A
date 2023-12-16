@@ -10,11 +10,9 @@ const Home = () => {
     return (
       <>
         <>{/* Testing Background */}</>
-        <section>
-          <div>
-            <img src={Bgimg} alt="Background" class="bg-img"/>
-            <div class="bg-overlay"></div>
-          </div>
+        <section class="section">
+          <img src={Bgimg} alt="Background" class="bg-img"/>
+          <div class="bg-overlay"></div>
         </section>
 
 
