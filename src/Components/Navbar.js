@@ -29,16 +29,19 @@ function Navbar() {
                     <p>Dylan Reyes</p>
                     <ul class='nav-ul'>
                         <li>
-                        <Link to="/">Home</Link>
-                        </li>
-                        <li>
                         <Link to="/blogs">About</Link>
                         </li>
                         <li>
-                        <Link to="/contact">Projects</Link>
+                        <Link to="/technology">Tech</Link>
                         </li>
                         <li>
-                        <Link to='/'>Contact</Link>
+                        <Link to="/workexperience">Work</Link>
+                        </li>
+                        <li>
+                        <Link to="/projects">Projects</Link>
+                        </li>
+                        <li>
+                        <Link to='/contact'>Contact</Link>
                         </li>
                     </ul>
                     </div>

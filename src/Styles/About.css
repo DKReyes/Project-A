@@ -13,20 +13,26 @@
     }
     .about-icons-ul li a {
         text-decoration: none;
-        color: black;
+        color: white;
     }
 
 .about-content {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1140px;
     align-items: center;
-    width: 80%;
     display: flex;
+    color: white;
 }
     .about-image {
-        flex: 1;
-    }
-    .about-text{
         flex: 2;
     }
+    .about-text{
+        flex: 4;
+    }
+
+.wrap {
+    width: 100%;
+    background-color: #464e5b;
+}

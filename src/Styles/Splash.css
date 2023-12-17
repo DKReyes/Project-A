@@ -1,7 +1,11 @@
 /* Splash Page - Desktop */
 .splash-main {
+    position: absolute;
     height: 100vh;
-    background-color: #464e5b;
+    /* background-color: #464e5b; */
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .splash-title {
@@ -15,10 +19,13 @@
 
     text-align: center;
     color: white;
+
     
 }
     .splash-title h1 {
         font-size: 70px;
+        margin: 0;
+        padding: 20px 0px;
     }
     .splash-title h2 {
         font-size: 30px;
