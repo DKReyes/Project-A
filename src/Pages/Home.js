@@ -10,6 +10,10 @@ import Contact from './Contact.js'
 import Bgimg from '../Images/background.jpg'
 
 const Home = () => {
+  
+
+
+
     return (
       <>
         <>{/* Testing Background */}</>
