@@ -75,4 +75,9 @@
 
 .section {
     height: 100vh;
+    background-image: url(../Images/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0px;
+    position: relative;
 }
