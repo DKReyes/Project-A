@@ -9,13 +9,14 @@
 }
 
 .splash-title {
-    width: 80%;
     max-width: 960px;
 
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    display: table-cell;
+    vertical-align: middle;
 
     text-align: center;
     color: white;
@@ -25,12 +26,10 @@
     .splash-title h1 {
         font-size: 3.5rem;
         margin: 0;
-        padding: 20px 0px 5px 0px;
     }
     .splash-title h2 {
         font-size: 1.8rem;
         margin: 0px;
-        padding-top: 30%;
     }
     .splash-title h3 {
         margin-top: 9px;
@@ -80,4 +79,10 @@
     background-position: center center;
     padding: 100px 0px;
     position: relative;
+}
+
+.splash-container {
+    display: table;
+    margin: auto;
+    height: 100%;
 }

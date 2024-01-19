@@ -21,7 +21,7 @@ const Home = () => {
           <div class="bg-overlay"></div>
 
           <div class='splash-main'>
-            <div>
+            <div class='splash-container'>
               <div class='splash-title'>
                 <h2>Hey, my name is</h2>
                 <h1>Dylan Reyes</h1>
