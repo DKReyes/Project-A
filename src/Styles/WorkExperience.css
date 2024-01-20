@@ -1,0 +1,10 @@
+.work-main {
+    background-color: #464e5b;
+    color: white;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+    align-items: center;
+    display: flex;
+}

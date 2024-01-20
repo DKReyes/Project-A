@@ -1,8 +1,14 @@
+import '../Styles/WorkExperience.css'
+import '../Styles/About.css'
+
+
 const WorkExperience = () => {
     return (
         <>
-            <div>
-                <h2>WorkExperience</h2>
+            <div class='wrap'>
+                <div class='work-main'>
+                    <h2>WorkExperience</h2>
+                </div>
             </div>
         </>
     );
