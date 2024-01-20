@@ -1,4 +1,5 @@
 import '../Styles/Technology.css'
+import '../Styles/About.css'
 
 import {Cloud, renderSimpleIcon } from 'react-icon-cloud'
 import { useState, useEffect } from 'react'
@@ -30,21 +31,23 @@ const Technology = () => {
 
     return (
         <>
-        <div class='tech-main'>
-            <div class='tech-side-a'>
-                <h2>Technology</h2>
-                <p>
-                Throughout my career so far I've worked with all froms of front-end,  back-end,
-                and databasing with cloud computing in my most recent years. The current technologies I'm
-                profecient at are React, Javascript, C#, Python, AWS, and CSS.
-                </p>
-            </div>
-            <div class='tech-side-b'>
-                <Cloud 
-                    options={options}
-                >
-                    {icons}
-                </Cloud>
+        <div class='wrap-b'>
+            <div class='tech-main'>
+                <div class='tech-side-a'>
+                    <h2>Technology</h2>
+                    <p>
+                    Throughout my career so far I've worked with all froms of front-end,  back-end,
+                    and databasing with cloud computing in my most recent years. The current technologies I'm
+                    profecient at are React, Javascript, C#, Python, AWS, and CSS.
+                    </p>
+                </div>
+                <div class='tech-side-b'>
+                    <Cloud 
+                        options={options}
+                    >
+                        {icons}
+                    </Cloud>
+                </div>
             </div>
         </div>
         </>
