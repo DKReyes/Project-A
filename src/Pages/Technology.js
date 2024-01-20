@@ -30,7 +30,8 @@ const Technology = () => {
 
     return (
         <>
-            <div>
+        <div class='tech-main'>
+            <div class='tech-side-a'>
                 <h2>Technology</h2>
                 <p>
                 Throughout my career so far I've worked with all froms of front-end,  back-end,
@@ -38,13 +39,14 @@ const Technology = () => {
                 profecient at are React, Javascript, C#, Python, AWS, and CSS.
                 </p>
             </div>
-            <div class='temp'>
+            <div class='tech-side-b'>
                 <Cloud 
                     options={options}
                 >
                     {icons}
                 </Cloud>
             </div>
+        </div>
         </>
     );
   };
