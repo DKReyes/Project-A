@@ -1,34 +1,33 @@
-import {Cloud, renderSimpleIcon, renderImage, renderText, ICloud} from 'react-icon-cloud'
-// import jsIcon from "simple-icons/icons/javascript";
+import '../Styles/Technology.css'
 
-// const iconTag = renderSimpleIcon({
-//   icon: jsIcon,
-// })
+import {Cloud, renderSimpleIcon } from 'react-icon-cloud'
+import { useState, useEffect } from 'react'
+import { siReact, siJavascript, siAmazonaws, siDotnet, siGithub, siGit, siPhp, siPython, siRuby, siRubyonrails, siMysql, siHtml5, siGooglecloud, siAndroidstudio, siOracle} from "simple-icons"
 
-// const imgTag = renderImg({
-//   imgProps: {
-//     src: 'https://openmoji.org/data/color/svg/1F44B.svg',
-//     alt: 'Globe',
-//     width: 100,
-//     height: 100
-//   },
-//   aProps: {
-//     href: 'https://openmoji.org',
-//     target: '_blank',
-//     rel: 'noreferrer',
-//   }
-// })
+const theIcons = [
+        siReact, siJavascript, siAmazonaws, siDotnet, siGit, siGithub, siPhp, siPython, siRuby, siRubyonrails, siMysql, siHtml5, siGooglecloud, siAndroidstudio, siOracle
+]
 
-// const textTag = renderText({
-//   text: 'hello'
-// })
+const icons = theIcons.map((icon) => {
+    return renderSimpleIcon({
+        icon,
+        size: 100,
+        aProps: {
+        onClick: (e) => e.preventDefault()
+        }
+    })
+})
 
-// const containerProps: ICloud['containerProps'] = {}
-// const canvasProps: ICloud['canvasProps'] = {}
-// const cloudProps: ICloud['options'] = {}
-
+const options = {
+    'wheelZoom': false,
+    "minSpeed": 0.008, 
+    "maxSpeed":0.04, 
+    "imageScale": 1.2, 
+    "noSelect": true
+}
 
 const Technology = () => {
+
     return (
         <>
             <div>
@@ -39,15 +38,13 @@ const Technology = () => {
                 profecient at are React, Javascript, C#, Python, AWS, and CSS.
                 </p>
             </div>
-            <Cloud 
-                // containerProps={containerProps} 
-                // canvasProps={canvasProps}
-                // options={options}
-            >
-                {/* {iconTag} */}
-                {/* {imgTag}
-                {textTag} */}
-            </Cloud>
+            <div class='temp'>
+                <Cloud 
+                    options={options}
+                >
+                    {icons}
+                </Cloud>
+            </div>
         </>
     );
   };

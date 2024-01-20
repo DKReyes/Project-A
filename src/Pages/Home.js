@@ -39,12 +39,6 @@ const Home = () => {
         <Projects />
         <Contact />
 
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
       </>
     )
   };
